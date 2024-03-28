@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>We convert PDFs to Google Docs.</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on We convert PDFs to Google Docs.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Privacy Policy</title>
+      <link>//localhost:1313/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/privacy-policy/</guid>
+      <description>Who we are Our website address is: https://www.pdftodocs.com&#xA;At PDF to Docs (“We”, “Us”, “Our”), we respect the client’s (“You”, “Your” or “User”) privacy and protect it seriously. The use of information collected through our service shall be limited to the purpose of providing the service for which our Clients have engaged us.&#xA;Limited Use Requirements PDF to Docs respects your privacy and only obtain, use the minimum necessary information from Google APIs to provide our services.</description>
+    </item>
+  </channel>
+</rss>
