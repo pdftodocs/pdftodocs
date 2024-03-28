@@ -1,4 +1,4 @@
-baseurl      = "localhost"
+baseURL = "https://pdftodocs.netlify.app/"
 title        = "My Blog"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
