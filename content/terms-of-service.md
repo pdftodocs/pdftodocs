@@ -7,8 +7,6 @@ menu:
     url: "/terms-of-service"
 ---
 
-# Terms of Services
-
 - **We take steps to protect your personal information.** We use industry-standard security measures to protect your personal information from unauthorized access, alteration, or destruction. We also follow generally accepted industry standards to maintain data accuracy and help ensure the appropriate use of your personal information.
 
 - **We do not target children.** Docs to Markdown Pro does not target its offerings toward and does not knowingly collect any personal information from, users under 13 years of age.
