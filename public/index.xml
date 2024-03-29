@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/privacy-policy/</guid>
       <description>Who we are Our website address is: https://www.pdftodocs.com&#xA;At PDF to Docs (“We”, “Us”, “Our”), we respect the client’s (“You”, “Your” or “User”) privacy and protect it seriously. The use of information collected through our service shall be limited to the purpose of providing the service for which our Clients have engaged us.&#xA;Limited Use Requirements PDF to Docs respects your privacy and only obtain, use the minimum necessary information from Google APIs to provide our services.</description>
     </item>
+    <item>
+      <title>Terms of Service</title>
+      <link>http://localhost:1313/terms-of-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/terms-of-service/</guid>
+      <description>Terms of Services We take steps to protect your personal information. We use industry-standard security measures to protect your personal information from unauthorized access, alteration, or destruction. We also follow generally accepted industry standards to maintain data accuracy and help ensure the appropriate use of your personal information.&#xA;We do not target children. Docs to Markdown Pro does not target its offerings toward and does not knowingly collect any personal information from, users under 13 years of age.</description>
+    </item>
   </channel>
 </rss>

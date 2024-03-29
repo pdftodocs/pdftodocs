@@ -58,3 +58,8 @@ theme        = "hello-friend-ng"
    identifier = "privacy-policy"
    name       = "Privacy Policy"
    url        = "/privacy-policy"
+
+ [[menu.main]]
+   identifier = "terms-of-service"
+   name       = "Terms of Service"
+   url        = "/terms-of-service"   
