@@ -1,0 +1,159 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import Note from '~/components/widgets/Note.astro';
+import Features from '~/components/widgets/Features.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import Content from '~/components/widgets/Content.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Convert PDF to Google Docs in a single click',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Get started for free',
+        href: 'https://workspace.google.com/marketplace/app/pdf_to_docs/28755135712',
+        target: '_blank',
+      },
+      { text: 'Learn more', href: '#features' },
+    ]}
+  >
+    <Fragment slot="title">
+      Bulk Convert <span class="text-accent dark:text-white highlight">PDF</span> to Google Docs
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+        <span class="font-semibold">PDF to Docs</span> is a Google Docs editor add on that allows you to convert multiple
+        PDF into Google Docs in a single click.
+      </span>
+    </Fragment>
+  </Hero>
+
+  <!-- Note Widget ******************* -->
+
+  <Note />
+
+  <!-- Features Widget *************** -->
+
+  <Features
+    id="features"
+    tagline="Features"
+    title="What you get with PDF to Docs"
+    subtitle="The only add on that converts PDF from local drive or a Google Drive into Google Docs format"
+    items={[
+      {
+        title: 'Local file conversion',
+        description: 'converts local PDF files into Google Docs seamlessly',
+        icon: 'tabler:file-type-pdf',
+      },
+      {
+        title: 'Google Drive files conversion',
+        description: 'Converts PDF file from Google Drive into Google Docs seamlessly',
+        icon: 'tabler:brand-google-drive',
+      },
+      {
+        title: 'Customizable output settings',
+        description: 'Provides customizable settings for the conversion process',
+        icon: 'tabler:settings-cog',
+      },
+      {
+        title: 'User friendly interface',
+        description: 'Provides best user friendly interface for conversion',
+        icon: 'tabler:user-heart',
+      },
+      {
+        title: 'Private & secure',
+        description:
+          'Conversion happens inside your own Google account. The files are not updated to any of our servers for conversion',
+        icon: 'tabler:lock',
+      },
+      {
+        title: 'We keep improving',
+        description:
+          'We listen to users. Do you have a feature request that can improve the add-on? Get in touch with us to implement it.',
+        icon: 'tabler:ear',
+      },
+    ]}
+  />
+
+  <!-- <BlogLatestPosts
+    title="Find out more content in our Blog"
+    information={`The blog is used to display AstroWind documentation.
+                        Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
+                        Astro is a very interesting technology. Thanks.
+                `}
+  />-->
+
+  <!-- FAQs Widget ******************* -->
+
+  <FAQs
+    title="Frequently Asked Questions"
+    subtitle="Dive into the following questions to know more about PDF to Docs"
+    tagline="FAQs"
+    classes={{ container: 'max-w-6xl' }}
+    items={[
+      {
+        title: 'Why PDF to Docs?',
+        description:
+          'PDF to Docs is the only add that offers private and secure conversion of the PDF files into Google Docs',
+      },
+      {
+        title: 'What do I need to start?',
+        description: "Install the add-on and get started immediately. You doesn't have to do anything else.",
+      },
+      {
+        title: 'How to install the PDF to Docs Add on?',
+        description: 'Use the link available below to install the add-on from the Google Workspace Marketplace',
+      },
+    ]}
+  />
+
+  <!-- Stats Widget ****************** -->
+
+  <!--<Stats
+    stats={[
+      { title: 'Downloads', amount: '132K' },
+      { title: 'Stars', amount: '24.8K' },
+      { title: 'Forks', amount: '10.3K' },
+      { title: 'Users', amount: '48.4K' },
+    ]}
+  />-->
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction>
+    <Fragment slot="title">
+      Ready to get started?<br /><br /><br class="block sm:hidden" /><span class="sm:whitespace-nowrap"></span>
+      <a
+        href="https://workspace.google.com/marketplace/app/pdf_to_docs/28755135712?pann=b"
+        target="_blank"
+        aria-label="Get it from the Google Workspace Marketplace"
+        style="display: flex; justify-content: center;"
+      >
+        <img
+          alt="Google Workspace Marketplace badge"
+          alt-text="Get it from the Google Workspace Marketplace"
+          src="https://workspace.google.com/static/img/marketplace/en/gwmBadge.svg?"
+          style="height: 68px;"
+        />
+      </a>
+    </Fragment>
+
+    <Fragment slot="subtitle"> </Fragment>
+  </CallToAction>
+</Layout>
