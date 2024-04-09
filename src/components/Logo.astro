@@ -1,10 +1,10 @@
 ---
 import { SITE } from 'astrowind:config';
+import { Image } from 'astro:assets';
+import logo from '../assets/images/logo-32.png';
 ---
 
-<span
-  class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg-[url(https://www.thinksolv.com/wp-content/uploads/2024/03/favicon.png)]"
-></span>
+<Image src={logo} alt="A description of my image." />
 <span
   class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"
 >

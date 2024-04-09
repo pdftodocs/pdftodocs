@@ -88,4 +88,6 @@ export default defineConfig({
       },
     },
   },
+  site: 'https://pdftodocs.com',
+ 
 });
