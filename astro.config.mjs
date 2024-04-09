@@ -57,5 +57,5 @@ export default defineConfig({
       }
     }
   },
-  site: 'https://pdftodocs.com'
+  site: 'https://www.pdftodocs.com'
 });
