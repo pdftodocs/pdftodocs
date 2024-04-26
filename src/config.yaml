@@ -9,8 +9,8 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
+    default: Convert PDF to Google Docs in a single click
+    template: 'Convert PDF to Google Docs in a single click'
   description: "Convert PDF to Google Docs in a single click"
   robots:
     index: true
